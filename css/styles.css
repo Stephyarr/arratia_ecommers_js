@@ -1,40 +1,31 @@
+/* Styles import */
+@import url(header.css);
+
+/* Fonts google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
 }
 body{
-    background-color: white;
+    background-color: #FFE6A7;
 }
+h1  { 
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
 .container {
-    background-color: rgb(184, 133, 81);
+    background-color: #99582A;
     padding: 20px;
 }
-.header__nav {
-    background-color: rgb(184, 133, 81);
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 0 auto;
-}
-.header__nav-ul {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-}
-.header__ul{
-    background-color: rgb(171, 116, 27);
-    padding: 12px;
-    border-radius: 6px;
-}
-.header__ul-a{
+a {
     text-decoration: none;
-    font-size: 3vh;
-    color: black;
-}
-.header__ul-a:hover{
-    color: rgb(239, 238, 235);
-    background-color: rgb(171, 116, 27);
 }
 
 .banner__container-img {

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Buzo Abrigo con Mangas",
+        "price": 12999,
+        "description": "Buzo Abrigo con mangas, idea para el invierno.",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Juguete de Peluche",
+        "price": 8600,
+        "description": "Juguete suave y duradero, ideal para morder y jugar.",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Comida Premium",
+        "price": 15199,
+        "description": "Comida balanceada y nutritiva para perros de todas las razas.",
+        "image": ""
+    }
+]
